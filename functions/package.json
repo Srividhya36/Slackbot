@@ -1,0 +1,10 @@
+{
+	"name": "demo_1_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "srividhya.s@zohocorp.com",
+	"dependencies": {
+		"request": "^2.88.2",
+		"zcatalyst-sdk-node": "latest"
+	}
+}
