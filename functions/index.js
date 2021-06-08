@@ -31,9 +31,9 @@ app.post('/listen', (req, res) => {
 		// your logic comes here
 		//sentiment analysis API
 	console.log("accesstoken"+accessToken)
-/*var options = {
+var options = {
   'method': 'POST',
-  'url': 'https://api.catalyst.zoho.com/baas/v1/project/5407000000119001/ml/sentiment-analysis',
+  'url': 'https://api.catalyst.zoho.com/baas/v1/project/{{PROJECTID}}/ml/sentiment-analysis',
   'headers': {
     'Authorization': 'Zoho-oauthtoken '+accessToken,
     'Content-Type': 'application/json'
@@ -46,7 +46,7 @@ request(options, function (error, response) {
   if (error) throw new Error(error);
   console.log(response.body);
 });
-*/
+
 });
 
 
